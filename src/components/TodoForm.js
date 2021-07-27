@@ -4,7 +4,10 @@ import Todo from "./Todo";
 import Reducer from "../Reducer";
 
 const TodoFrom = () => {
-  const [state, dispatch] = useReducer(Reducer, []);
+  const items = localStorage.getItem("state")
+    ? JSON.parse(localStorage.getItem("state"))
+    : [];
+  const [state, dispatch] = useReducer(Reducer, items);
 
   const [inputData, setInputData] = useState({
     value: "",
@@ -25,7 +28,7 @@ const TodoFrom = () => {
   };
 
   return (
-    <Grid justifyContent="center" direction="column">
+    <Grid>
       <form
         onSubmit={handleSubmit}
         style={{ display: "flex", justifyContent: "center" }}
@@ -43,8 +46,9 @@ const TodoFrom = () => {
       <br />
       <p style={{ fontSize: "20px" }}>Your tasks</p>
       <hr />
-      {state.length ? (
-        state.map((todo) => (
+
+      {items.length ? (
+        items.map((todo) => (
           <Todo key={todo.key} todo={todo} dispatch={dispatch} />
         ))
       ) : (
