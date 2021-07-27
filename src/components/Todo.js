@@ -8,7 +8,14 @@ const Todo = ({ todo, dispatch }) => {
     dispatch({ type: "check-status", payload: todo });
   };
   return (
-    <div style={{ background: "#6c5ce7", color: "white", borderRadius: "5px" }}>
+    <div
+      style={{
+        background: "#6c5ce7",
+        color: "white",
+        borderRadius: "5px",
+        marginBottom: "10px",
+      }}
+    >
       <Checkbox
         checked={todo.check}
         onChange={handleCheck}
