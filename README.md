@@ -2,7 +2,7 @@
 
 ## A simple todo app with react
 
-<img src="[https://res.cloudinary.com/dl1sztvng/image/upload/v1723945471/eu9tqzrbrll3awvmh0dj.png" width="931](https://res.cloudinary.com/dl1sztvng/image/upload/v1724047475/pwoogfaqa64l2ts5cjqo.png)"/>
+<img src="https://res.cloudinary.com/dl1sztvng/image/upload/v1724047475/pwoogfaqa64l2ts5cjqo.png" width="931]"/>
 
 ## Description
 
