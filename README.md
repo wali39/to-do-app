@@ -8,11 +8,37 @@
 
 ToDo app developed wtih react and bootstrap
 
-### Executing program
+## Getting Started
 
-- Download project
-- Open `index.html` file with chrome
+For geting started with this repository first you need clone this
+
+### Prerequisites
+
+update node package manager
+
+- npm
+  ```sh
+  npm install npm@latest -g
+  ```
+- Git
+
+  ```sh
+  Download git https://github.com/git-for-windows/git/releases/download/v2.33.0.windows.2/Git-2.33.0.2-64-bit.exe
+  ```
+
+  ### Installation
+
+2. Clone the repo
+
+   ```sh
+   git clone https://github.com/wali39/to-do-app.git
+   ```
+
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
 
 ## Live Demo
 
-- Corona.gov.bd: [see demo](https://wali39.github.io/corona-web-clone/)
+- Corona.gov.bd: [see demo]([https://wali39.github.io/corona-web-clone/](https://todoapp39.netlify.app/))
