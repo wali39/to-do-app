@@ -41,4 +41,4 @@ update node package manager
 
 ## Live Demo
 
-- Corona.gov.bd: [see demo]([https://wali39.github.io/corona-web-clone/](https://todoapp39.netlify.app/))
+- ToDo App: [see demo](https://todoapp39.netlify.app/)
